@@ -34,8 +34,9 @@
 
 IINA 是 macOS 上一款媒体播放器.
 
-- https://github.com/magicdawn/iina-userland create-iina-plugin & generator-iina
+- https://github.com/magicdawn/iina-userland create-iina-plugin & generator-iina & iina-devkit
 - https://github.com/magicdawn/iina Developer fork, 开放 plugin webview loadUrl
+- https://github.com/magicdawn/iina-userland/tree/main/packages/trpc-iina trpc IINA adapter
 - https://github.com/magicdawn/iina-plugin-thunder-subtitle 从迅雷影音查找字幕
 - https://github.com/magicdawn/iina-plugin-bilibili IINA + Bilibili
 
