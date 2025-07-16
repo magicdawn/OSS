@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@magicdawn/prettier-config':
+        specifier: ^0.1.0
+        version: 0.1.0
+
+packages:
+
+  '@magicdawn/prettier-config@0.1.0':
+    resolution: {integrity: sha512-biAw57KW+UIJGCrMU0299fblBwOiVOminyq/YTHIJgrrON09kwFbKc/oISpoLH8W7wX6gmqL4OSRsX+10FQ7Jg==}
+
+snapshots:
+
+  '@magicdawn/prettier-config@0.1.0': {}

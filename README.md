@@ -1,20 +1,17 @@
 # My Projects
 
+## 应用软件
+
+- [yun-playlist-downloader](https://github.com/magicdawn/yun-playlist-downloader) 网易云音乐下载器
+  - 本来是方便自己导入到 Apple iPod nano 中, 后面没有使用 iPod nano 了, 但一直在更新
+- [bilibili-app-recommend](https://github.com/magicdawn/bilibili-app-recommend) B 站首页推荐, 油猴脚本
+- [clash-config-manager](https://github.com/magicdawn/clash-config-manager) 用于 MacOS clashX 的 GUI 配置合并工具
+
 ## 图片压缩
 
 - [node-mozjpeg](https://github.com/magicdawn/node-mozjpeg): mozjpeg Node.js N-API addon
 - [handy-img](https://github.com/magicdawn/handy-img) 使用 node-mozjpeg & sharp 的上层库, 提供 cli & api
 - [x-args](https://github.com/magicdawn/x-args) 一个更方便的 xargs, 本来是搭配 handy-img 使用, 但不限于此
-
-## 应用软件
-
-- [yun-playlist-downloader](https://github.com/magicdawn/yun-playlist-downloader) 网易云音乐下载器
-- [bilibili-app-recommend](https://github.com/magicdawn/bilibili-app-recommend) B 站首页推荐, 油猴脚本
-- [clash-config-manager](https://github.com/magicdawn/clash-config-manager) 用于 MacOS clashX 的 GUI 配置合并工具
-
-起因
-
-- yun-playlist-downloader: 本来是方便自己导入到 Apple iPod nano 中, 后面没有使用 iPod nano 了, 但一直在更新
 
 ## vue-mgl & bj-hospital-vis
 
@@ -48,6 +45,10 @@ IINA 是 macOS 上一款媒体播放器.
 - https://github.com/magicdawn/atom-zoom Atom 编辑器缩放. 不再使用 Atom, 不再更新.
 - https://github.com/magicdawn/last-cjs-version 获取 npm 模块的最后一个 cjs 版本. cli & API
 - https://github.com/magicdawn/create-with-generator 轻松将已有的 yeoman generator `generator-abc` 封装成 `pnpm/yarn create abc`
+- https://github.com/magicdawn/unocss-merge simple utility to merge unocss class names
+- https://github.com/magicdawn/fast-sort-lens API wrapper around fast-sort
+- https://github.com/magicdawn/x-args play with cli commands like a composer
+- https://github.com/magicdawn/purple-colors purple-colors
 
 ## Libs
 
@@ -73,8 +74,9 @@ IINA 是 macOS 上一款媒体播放器.
 - [promise.obj](https://github.com/magicdawn/promise.obj)
 - [promise.sleep](https://github.com/magicdawn/promise.sleep)
 
-起因, 在 2016 年做过一年半纯后端, 有很多需要很多超时 / 重试 / 并发处理的场景, 于是写了 promise.timeout, promise.retry, promise.map
-写的时候还没有 Sindre Sorhus 的 p-retry / p-timeout, 后续补充了一些其他的.
+- 起因, 在 2016 年做过一年半纯后端, 有很多需要很多超时 / 重试 / 并发处理的场景, 于是写了 promise.timeout, promise.retry, promise.map
+  写的时候还没有 Sindre Sorhus 的 p-retry / p-timeout, 后续补充了一些其他的.
+- promise.map, 提供 `pmap` / `pFilter` / `pLimit` / `limitFunction` 等, 是一个现代化的 async toolkit
 
 ### 其他: 自己现在很少使用
 
